@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.0;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 0px 60px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-vov img {
+  height: 60px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #0073e6;
+}
+
+.logo-fvc img {
+  height: 50px;
+}
+
+.baner {
+  position: relative;
+  width: 100%;
+  padding: 0px 60px;
+}
+
+.baner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.baner-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(218, 234, 247);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.baner-text h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.baner-text p {
+  font-size: 1em;
+}
+
+.section-content {
+  padding: 40px 20px;
+  max-width: 1435px;
+  margin: 0 auto;
+}
+
+.section-content h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.section-content p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column.tall img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-top: 3px solid #ddd;
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.phuong-cham {
+  flex: 0 0 70%;
+}
+
+.contact {
+  flex: 0 0 30%;
+  padding-right: 20px;
+}
+
+
+
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+footer p {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
